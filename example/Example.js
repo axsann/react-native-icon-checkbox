@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class Example extends Component {
+export default class Example extends Component<*> {
 
   constructor(props) {
     super(props);

@@ -14,7 +14,7 @@ import {
 
 import Example from './Example';
 
-class example extends Component {
+class example extends Component<*> {
   render() {
     return (
       <View style={styles.container}>
